@@ -453,7 +453,7 @@ def main():
                     weight, tree = result
                     print(tree)
                     print(f"{weight}")
-                    print(f"Probability: {2 ** -weight}")
+                    # print(f"Probability: {2 ** -weight}")
 
                 # result = chart.get_all_parse(args=args)
                 # if result is not None:
